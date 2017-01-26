@@ -26,9 +26,9 @@ suitable directory.
 3. Navigate to the repository you downloaded using `cd` and `ls`.
 	(`ls` lists all of the files and directories in the current directory, `cd` will enter the directory you specify.)
 4. To compile a multiplication algorithm, type
-	clang -I<GMP headers directory> -l<FLINT headers directory> -L<GMP PATH> -L<FLINT Path> -Os <multiplication algorithm>.c -o <multiplication algorithm>
+	`clang -I<GMP headers directory> -l<FLINT headers directory> -L<GMP PATH> -L<FLINT Path> -Os <multiplication algorithm>.c -o <multiplication algorithm>`
 5. To compile the timer, type
-	clang -O3 ctime.c -o ctime
+	`clang -O3 ctime.c -o ctime`
 	
 ### Creating data to test
 
