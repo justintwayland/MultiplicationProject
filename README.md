@@ -50,6 +50,7 @@ In your Unix command line type
 
 	python test_programs.py <multiplication algorithms>
 
+substituting `<multiplication algorithms>` with the algorithms you want to test.
 This will take a while, like the last command.  When done, the
 directories you created in the `data` folder will contain .CSV files
 with the same labels as the files you created in the main `data` directory.
