@@ -26,9 +26,9 @@ suitable directory.
 3. Navigate to the repository you downloaded using `cd` and `ls`.
 	(`ls` lists all of the files and directories in the current directory, `cd` will enter the directory you specify.)
 4. To compile a multiplication algorithm, type
-	`clang -I<GMP headers directory> -l<FLINT headers directory> -L<GMP PATH> -L<FLINT Path> -Os <multiplication algorithm>.c -o <multiplication algorithm>`
+	clang -I<GMP headers directory> -l<FLINT headers directory> -L<GMP PATH> -L<FLINT Path> -Os <multiplication algorithm>.c -o <multiplication algorithm>
 5. To compile the timer, type
-	`clang -O3 ctime.c -o ctime`
+	clang -O3 ctime.c -o ctime
 	
 ### Creating data to test
 
@@ -36,7 +36,7 @@ Create a folder called `data` in the repository.
 
 In your Unix command line type
 
-	`python create_data.py`
+	python create_data.py
 
 This will take some time to do.  Once done, you should see `.bz2`
 files with labels corresponding to powers of two from 64 to 4096.
@@ -48,7 +48,7 @@ multiplication algorithm you want to test.
 
 In your Unix command line type
 
-	`python test_programs.py <multiplication algorithms>`
+	python test_programs.py <multiplication algorithms>
 
 This will take a while, like the last command.  When done, the
 directories you created in the `data` folder will contain .CSV files
